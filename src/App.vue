@@ -1,12 +1,15 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Options</router-link> |
+    <router-link to="/composition">Composition</router-link>
   </div>
   <router-view/>
 </template>
 
 <style>
+* {
+  box-sizing: border-box;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
